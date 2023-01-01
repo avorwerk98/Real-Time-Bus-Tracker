@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+	<script src="https://bootstrap.bundle.min.js"></script>
+	<link href="https://api.mapbox.com/mapbox-gl-js/v2.11.0/mapbox-gl.css" rel="stylesheet">
+	<script src="https://api.mapbox.com/mapbox-gl-js/v2.11.0/mapbox-gl.js"></script>
+	<link rel="preload" href="icons8-bus-64.png" as="image">
+	<link rel="preload" href="icons8-bus-64-4.png" as="image">
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+	
+<div style = "margin: 0; padding: 0"; id = "map"></div>
+<div class = "popup" id="popup"></div>
+<style>
+	#map { position: absolute; top: 0; bottom: 0; width: 100%; }
+	.marker {
+    display: block;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 0;
+}
+
+</style>
+<script src="/bus.js"></script>
+</body>
+</html>
