@@ -12,4 +12,4 @@ Clone this repo and open the index.html file in your browser.
 Add pop ups to each bus displaying it's location, capacity, etc. Also add names to bus stops.
 
 ## Link to Project
-<a href="https://github.com/avorwerk98/Real-Time-Bus-Tracker.git">Real Time Bus Tracker></a>
+<a href="https://github.com/avorwerk98/Real-Time-Bus-Tracker.git">Real Time Bus Tracker</a>
